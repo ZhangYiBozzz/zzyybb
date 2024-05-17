@@ -202,6 +202,7 @@ const { data: TopMv } = useRequest(() => gettopMv({ limit: 3, area: "内地" }))
 // 使用watchEffect来观察ToplistDetail的变化
 watchEffect(() => {
   console.log(ToplistDetail.value);
+  console.log(PlaylistDetail.value);
 });
 
 const activeName = ref("b");

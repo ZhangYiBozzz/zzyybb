@@ -31,6 +31,6 @@ const emit = defineEmits<{
   abc: [id: number, title: string];
 }>();
 
-const count = ref();
+// const count = ref();
 </script>
 <style scoped></style>
